@@ -1,0 +1,20 @@
+body{
+    background: url(./image/image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+font-size: 40px;
+color: #00f7ff;
+padding: 30px 10px;
+backdrop-filter: blur(5px);
+background-color: rgb(4, 86, 153);
+border: 1px solid rgb(0, 238, 255);
+border-radius: 70%;
+}
